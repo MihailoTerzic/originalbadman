@@ -9,7 +9,7 @@ export default function CreditsSection({ credits = [] }) {
       className="relative z-10 px-6 py-16 text-white  bg-black/80"
     >
       <div className="max-w-3xl mx-auto  space-y-6">
-        <h2 className="text-3xl sm:text-4xl font-bold mb-8">Credits</h2>
+        <h2 className="text-3xl sm:text-4xl font-bold mb-8 font-serif">Credits</h2>
 
         {credits.map((line, index) => {
           const [label, ...rest] = line.split(':');
