@@ -6,6 +6,8 @@ const songData = {
       Youtube: 'https://www.youtube.com/watch?v=q7D8vUTAgl0&ab_channel=KDMExclusive',
       Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',
       Deezer: 'https://www.deezer.com/en/album/780795941',
+      embed: 'https://www.youtube.com/embed/q7D8vUTAgl0'
+      
     },
     credits: [
       'Muzika: Corona',
@@ -24,7 +26,7 @@ const songData = {
     video: '/videos/pronto.mp4',
     links: {
       Youtube: 'https://www.youtube.com/watch?v=MJUEh39euKU&list=RDMJUEh39euKU&start_radio=1&ab_channel=KDMExclusive',
-Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',     Deezer: 'https://www.deezer.com/en/album/780795941',
+Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',     Deezer: 'https://www.deezer.com/en/album/780795941', embed: 'https://www.youtube.com/embed/MJUEh39euKU'
     },
     credits: [
       'Muzika: Corona',
@@ -51,6 +53,7 @@ Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',     Deezer: 'h
     links: {
       Youtube: 'https://www.youtube.com/watch?v=l6XwpRKUUfo&ab_channel=KDMExclusive',
 Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',     Deezer: 'https://www.deezer.com/en/album/780795941',
+embed: 'https://www.youtube.com/embed/l6XwpRKUUfo', 
     },
     credits: [
       'Muzika: Corona',
@@ -69,7 +72,7 @@ Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',     Deezer: 'h
     video: '/videos/mane.mp4',
     links: {
       Youtube: 'https://www.youtube.com/watch?v=dtlN2N1WM1M&ab_channel=KDMExclusive',
-Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',     Deezer: 'https://www.deezer.com/en/album/780795941',
+Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',     Deezer: 'https://www.deezer.com/en/album/780795941', embed: 'https://www.youtube.com/embed/dtlN2N1WM1M'
     },
     credits: [
       'Muzika: Corona',
@@ -95,7 +98,7 @@ Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',     Deezer: 'h
     video: '/videos/knock-knock.mp4',
     links: {
       Youtube: 'https://www.youtube.com/watch?v=qF3mMaOnx6k&ab_channel=KDMExclusive',
-Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',    Deezer: 'https://www.deezer.com/en/album/780795941',
+Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',    Deezer: 'https://www.deezer.com/en/album/780795941', embed: 'https://www.youtube.com/embed/qF3mMaOnx6k'
     },
     credits: [
       'Muzika: Corona',
@@ -114,7 +117,7 @@ Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',    Deezer: 'ht
     video: '/videos/amorova-strela.mp4',
     links: {
       Youtube: 'https://www.youtube.com/watch?v=wsF-b-Z5dJU&ab_channel=KDMExclusive',
-Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',  Deezer: 'https://www.deezer.com/en/album/780795941',
+Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',  Deezer: 'https://www.deezer.com/en/album/780795941', embed:'https://www.youtube.com/embed/wsF-b-Z5dJU'
     },
     credits: [
       'Muzika: Corona',
@@ -140,7 +143,7 @@ Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',  Deezer: 'http
     video: '/videos/bonjour.mp4',
     links: {
       Youtube: 'https://www.youtube.com/watch?v=mY8D6l8pM0g&ab_channel=KDMExclusive',
-Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',     Deezer: 'https://www.deezer.com/en/album/780795941',
+Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',     Deezer: 'https://www.deezer.com/en/album/780795941', embed: 'https://www.youtube.com/embed/mY8D6l8pM0g'
     },
     credits: [
       'Muzika: Corona',
@@ -159,7 +162,7 @@ Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',     Deezer: 'h
     video: '/videos/original-badman.mp4',
     links: {
       Youtube: 'https://www.youtube.com/watch?v=U_kWSnL7YYw&ab_channel=KDMExclusive',
-Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',   Deezer: 'https://www.deezer.com/en/album/780795941',
+Spotify: 'https://open.spotify.com/album/3LETlK3dYIX98jjZVyGXVW',   Deezer: 'https://www.deezer.com/en/album/780795941', embed: 'https://www.youtube.com/embed/U_kWSnL7YYw'
     },
     credits: [
       'Muzika: Corona',
