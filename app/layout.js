@@ -16,8 +16,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "OGIGINAL BADMAN",
-  description: "OGIGINAL BADMAN KDM Exclusive Album",
+  title: "ORIGINAL BADMAN",
+  description: "Corona - Original Badman by KDM Exclusive",
 };
 
 export default function RootLayout({ children }) {
