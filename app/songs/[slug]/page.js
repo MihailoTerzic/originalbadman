@@ -27,7 +27,7 @@ export default function SongPage({ params }) {
       <div className="fixed top-0 left-0 w-full h-full bg-black/50 z-0" />
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-[70vh] text-center px-4 font-serif">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-[100svh] text-center px-4 font-serif">
         <h1 className="text-5xl sm:text-6xl md:text-8xl uppercase">
           {song.title}
         </h1>
@@ -51,9 +51,8 @@ export default function SongPage({ params }) {
     </a>
 ))}
         </div>
-      </div>
 
-    {/* YouTube Embed */}
+ {/* YouTube Embed */}
 <div className="relative z-10 mt-12 px-4 w-full flex justify-center items-center pb-24">
   <div className="w-full max-w-4xl aspect-video">
     <iframe
@@ -67,6 +66,9 @@ export default function SongPage({ params }) {
     ></iframe>
   </div>
 </div>
+      </div>
+
+   
       <CreditsSection credits={song.credits} />
     </main>
   );
