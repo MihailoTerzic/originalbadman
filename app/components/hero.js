@@ -7,7 +7,7 @@ export default function Hero() {
         ORIGINAL BADMAN
       </h1>
       <h2 className="font-bold text-2xl sm:text-3xl md:text-5xl mt-2">
-        Out Now
+        OUT NOW
       </h2>
       <p className="py-4 text-sm sm:text-base">Stream now:</p>
 

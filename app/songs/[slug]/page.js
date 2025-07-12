@@ -31,8 +31,8 @@ export default function SongPage({ params }) {
 
       {/* Content */}
       <div className="relative z-10 flex flex-col items-center justify-center min-h-[100svh] text-center px-4 font-serif">
-        <h1 className="text-5xl sm:text-6xl md:text-8xl">{song.title}</h1>
-        <h2 className="text-2xl sm:text-3xl md:text-5xl mt-2 font-bold">Out Now</h2>
+        <h1 className="text-5xl sm:text-6xl md:text-8xl uppercase">{song.title}</h1>
+        <h2 className="text-2xl sm:text-3xl md:text-5xl mt-2 font-bold ">OUT NOW</h2>
         <p className="py-4 text-sm sm:text-base">Stream now:</p>
 
         <div className="flex flex-wrap gap-2 sm:gap-3 justify-center items-center">
