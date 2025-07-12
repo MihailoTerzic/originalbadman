@@ -4,7 +4,7 @@ import Navbar from "./components/navbar";
 import TrackGrid from "./components/tracklist";
 import CreditsSection from "./components/credits";
 import Footer from "./components/footer";
-
+import { Analytics } from "@vercel/analytics/next"
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -31,6 +31,7 @@ export default function RootLayout({ children }) {
         <TrackGrid/>
         
         <Footer/>
+        <Analytics/>
       </body>
     </html>
   );
