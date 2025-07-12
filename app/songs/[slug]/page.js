@@ -27,7 +27,7 @@ export default function SongPage({ params }) {
       <div className="fixed top-0 left-0 w-full h-full bg-black/50 z-0" />
 
       {/* Content */}
-      <div className="relative z-10 flex flex-col items-center justify-center min-h-[100svh] text-center px-4 font-serif">
+      <div className="relative z-10 flex flex-col items-center justify-center min-h-[70vh] text-center px-4 font-serif">
         <h1 className="text-5xl sm:text-6xl md:text-8xl uppercase">
           {song.title}
         </h1>
@@ -37,16 +37,19 @@ export default function SongPage({ params }) {
         <p className="py-4 text-sm sm:text-base">Stream now:</p>
 
         <div className="flex flex-wrap gap-2 sm:gap-3 justify-center items-center">
-          {Object.entries(song.links).map(([platform, url]) => (
-            <a
-              key={platform}
-              href={url}
-              className="text-xs sm:text-sm md:text-base border border-white px-3 py-1 rounded-full hover:bg-white hover:text-black transition"
-              target="_blank"
-            >
-              {platform}
-            </a>
-          ))}
+        {Object.entries(song.links)
+  .filter(([platform]) => platform.toLowerCase() !== 'embed')
+  .map(([platform, url]) => (
+    <a
+      key={platform}
+      href={url}
+      className="text-xs sm:text-sm md:text-base border border-white px-3 py-1 rounded-full hover:bg-white hover:text-black transition"
+      target="_blank"
+      rel="noopener noreferrer"
+    >
+      {platform}
+    </a>
+))}
         </div>
       </div>
 
